@@ -1,0 +1,45 @@
+/* body {
+    background-image: url('img/background.jpg');
+    overflow-x: hidden;
+} */
+
+
+#image {
+    /* width: 70%; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    display: block;
+    margin: auto;
+    
+}
+
+#map path {
+   /* fill: ##88a4bc; */
+   stroke: #383535;
+}
+
+svg :hover {
+    /* fill: #3B729F; */
+    cursor: pointer;
+}
+
+#image {
+    margin-top: 50px;
+}
+
+#result {
+    margin-top: 50px;
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+#background-video{
+
+    height: 100%;
+    width: 100%;
+    float: left;
+    top: 0;
+    padding: none;
+    position: fixed; /* optional depending on what you want to do in your app */
+    z-index: -1;
+}

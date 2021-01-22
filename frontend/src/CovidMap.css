@@ -1,0 +1,45 @@
+
+path {
+    fill: #88a4bc;
+    z-index:1;
+}
+
+path:hover {
+    cursor: pointer;
+    fill: #3B729F;
+}
+
+
+/* #test {
+    width:200px ;
+    height:200px;
+    background-color:#a8a8a8;
+    opacity: 0.5  !important;
+    position: absolute  !important;
+    transition: opacity 100ms ease-in;
+   
+} */
+
+#mypopup {
+    max-width: 380px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    background-color:rgba(32,32,32, 0.6);
+    border-radius: 6px;
+    position: absolute;
+    display: none;
+    color: #fff;
+    text-align: center;
+    transition: opacity 200ms ease-in;
+  }
+  
+  #image {
+    display: block;
+    margin: auto;
+    margin-top:100px;   
+}
+
+body {
+    background-color: #e3e3e3;
+}
